@@ -377,14 +377,37 @@
             </button>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <div class="modal-form">
-                <label class="modal-label">Имя<input type="text" class="modal-input"></label>
-                <label class="modal-label">Телефон<input type="text" class="modal-input"></label>
-                <label class="modal-label">Почта<input type="text" class="modal-input"></label>
-                <label class="modal-label">Коментарий<textarea name="" id="" class="modal-area"></textarea></label>
                 <label class="modal-label">
-                    Коментарий
-                    <checkbox class="modal-agreement">Соглашаюсь с рассылкой и принимаю <a>Условия договора</a></checkbox>
+                    Имя
+                    <input type="text" class="modal-input">
+                    <svg width="18" height="18" class="modal-icon">
+                        <use href="./images/icons.svg#person"></use>
+                    </svg>
                 </label>
+                <label class="modal-label">
+                    Телефон
+                    <input type="text" class="modal-input">
+                    <svg width="18" height="18" class="modal-icon">
+                        <use href="./images/icons.svg#telephone"></use>
+                    </svg>
+                </label>
+                <label class="modal-label">
+                    Почта
+                    <input type="text" class="modal-input">
+                    <svg width="18" height="18" class="modal-icon">
+                        <use href="./images/icons.svg#email"></use>
+                    </svg>
+                </label>
+                <label class="modal-label"
+                    >Коментарий
+                    <textarea name="" spaceholder="Введите текст" class="modal-area"></textarea>
+                </label>
+                <label class="modal-checkbox">
+                    <input type="checkbox" class="modal-agreement visually-hidden">Соглашаюсь с рассылкой и принимаю
+                    <a href="./index.html" class="agreement-link">Условия договора</a></li>
+                    <span class="check-box"></span>
+                </label>
+                <button type="submit" class="modal-submit">Отправить</button>
             </div>
         </div>
     </div>
